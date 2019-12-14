@@ -41,9 +41,9 @@ def total_even_pairs(src)
   count = 0 
   while count < src.count do 
     current_num = src[count]
-    if current_num[0] % 2 == 0 && current_num[1] % 2 == 0
+    if current_num[0] % 2 == 0 && current_num[1] % 2 ==  #make both sides equal 
       total += current_num[0]
-      total += current_num[1] 
+      total += current_num[1] #had to seperate the two 
     else 
       nil 
     end
